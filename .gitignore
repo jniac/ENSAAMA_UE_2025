@@ -1,0 +1,22 @@
+# Unreal Engine
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+.DS_Store
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Web
+node_modules
+
+
+**.png

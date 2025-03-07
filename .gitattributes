@@ -1,0 +1,49 @@
+# Unreal Engine binary files - Store in LFS
+*.uasset filter=lfs diff=lfs merge=lfs
+*.umap filter=lfs diff=lfs merge=lfs
+*.upk filter=lfs diff=lfs merge=lfs
+*.udk filter=lfs diff=lfs merge=lfs
+
+# 3D models & textures (optional - if working with large art files)
+*.fbx filter=lfs diff=lfs merge=lfs
+*.obj filter=lfs diff=lfs merge=lfs
+*.png filter=lfs diff=lfs merge=lfs
+*.jpg filter=lfs diff=lfs merge=lfs
+*.exr filter=lfs diff=lfs merge=lfs
+*.tga filter=lfs diff=lfs merge=lfs
+*.bmp filter=lfs diff=lfs merge=lfs
+*.tif filter=lfs diff=lfs merge=lfs
+
+# Audio files
+*.wav filter=lfs diff=lfs merge=lfs
+*.mp3 filter=lfs diff=lfs merge=lfs
+*.ogg filter=lfs diff=lfs merge=lfs
+
+# Movies and large media files
+*.mp4 filter=lfs diff=lfs merge=lfs
+*.avi filter=lfs diff=lfs merge=lfs
+*.mov filter=lfs diff=lfs merge=lfs
+
+# Unreal build data (optional - if sharing built data, not always recommended)
+*.pak filter=lfs diff=lfs merge=lfs
+*.exe filter=lfs diff=lfs merge=lfs
+*.dll filter=lfs diff=lfs merge=lfs
+*.lib filter=lfs diff=lfs merge=lfs
+
+# Text files, source code, config - Regular Git (not LFS)
+*.ini text
+*.txt text
+*.json text
+*.csv text
+*.h text
+*.cpp text
+*.cs text
+*.py text
+*.sh text
+*.bat text
+*.cmake text
+
+# Ignore derived files and caches (these are not tracked usually)
+DerivedDataCache/ export-ignore
+Intermediate/ export-ignore
+Saved/ export-ignore
